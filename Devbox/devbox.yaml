@@ -8,8 +8,6 @@ tasks:
     parameters:
       - name: version
         value: 2.8.0
-      - name: description
-        value: 'hello people'
       - name: advanced
         value: true
         
