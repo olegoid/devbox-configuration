@@ -1,2 +1,2 @@
-name: vs_code
+name: vscode
 templatePath: install-vscode.ps1
