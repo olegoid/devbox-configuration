@@ -1,13 +1,10 @@
-name: project-sample-9
-tasks:
-  - name: nodejs
-    parameters:
-      - name: version
-        value: 2.5.0
-  - name: vscode
-    parameters:
-      - name: version
-        value: 2.8.0
-      - name: advanced
-        value: true
-        
+name: devbox-customization
+setupTasks:
+  - task: chocolatey
+    inputs:
+      packages: git.install, nodejs
+  - task: write-text
+    inputs:
+      boolParam: false
+      stringParam: hello devbox
+      arrayParam: 1, 2, 3
