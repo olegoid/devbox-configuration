@@ -1,0 +1,6 @@
+name: powershell
+command: "parameters('command')"
+inputs:
+  command:
+    type: "string"
+    required: true
